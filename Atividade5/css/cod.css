@@ -1,0 +1,29 @@
+header{
+    background-color: #faebd7;
+    margin-left: 70px;
+}
+a{
+    text-decoration: none;
+}
+article{
+    margin-left: 90px;
+}
+.container-flex{
+    display: flex;
+
+}
+.container_60x{
+    width: 80%;
+}
+.container_50x{
+    width: 50%;
+}
+.container_40x{
+    width: 40%;
+}
+
+#imgSite{
+    max-width: 350px;
+    width: 100%;
+    height: auto;
+}

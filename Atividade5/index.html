@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/cod.css">
+    <title>Atividade5</title>
+</head>
+
+<body>
+    <header>
+        <div class="container-flex spacebetween">
+            <img src="https://img.freepik.com/vetores-gratis/mock-se-de-um-jornal-diario-em-branco-vector-realista-mock-up-de-jornal-preto-e-branco-jornal-com-localizacao-para-espaco-de-copia-modelo-de-jornal-com-manchetes-de-negocios-da-economia-mundial_435184-34.jpg?size=626&ext=jpg"
+                alt="jornal" width="150px">
+            <h1>Noticias importantes</h1>
+        </div>
+
+        <ol>
+            <li><a href="#Lorem">lorem ipsum</a></li>
+            <li><a href="#Flex">FlexBox</a></li>
+        </ol>
+
+    </header>
+    <article class="container_60x">
+        <section>
+            <h2 id="Lorem">lorem ipsum</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lobortis libero nec rhoncus auctor.
+                Vivamus dapibus, elit ac venenatis mattis, dui enim tempus purus, a tempor mauris lacus sed felis.
+                Phasellus diam massa, placerat ac lobortis in, congue nec velit. Proin non velit erat. Donec vulputate,
+                turpis id dictum fermentum, est urna vehicula mauris, ac tristique mi tellus at leo. Mauris hendrerit
+                tristique placerat. Ut commodo tincidunt mi ac euismod. Morbi condimentum nibh ac malesuada hendrerit.
+                Mauris lobortis malesuada massa in facilisis. Aenean eu enim leo. Proin volutpat nisi eget libero
+                tempor, at tristique ipsum pellentesque. Mauris sodales eleifend risus, sit amet tincidunt ante laoreet
+                at.</p>
+            <p>Sed id nisl eu ipsum rhoncus consequat ut eget elit. Ut a ullamcorper nunc. Ut auctor ac ligula at
+                iaculis. Pellentesque eu felis nec sem pretium aliquet. Quisque facilisis arcu at eros convallis,
+                lacinia consequat dolor vestibulum. Morbi bibendum mauris eget erat tempor placerat. Duis dignissim
+                dapibus molestie. Donec accumsan ligula enim, et bibendum lacus fermentum at. Aenean accumsan, eros eget
+                pharetra viverra, ante ex porttitor sem, commodo commodo sapien lectus in enim. Donec in lectus tempor,
+                bibendum tortor sed, interdum magna. Ut vel neque eu diam rhoncus cursus. Nunc eleifend nisi arcu, quis
+                scelerisque nunc dapibus a.</p>
+            <p>Donec condimentum, odio in euismod pharetra, nibh ligula tristique eros, nec laoreet nulla mi et nisi.
+                Nulla eget diam at augue tincidunt hendrerit. Cras sed elementum ex. Maecenas ut dui sollicitudin ipsum
+                tempor tincidunt. Curabitur mattis aliquam leo, quis fermentum nulla elementum ac. Pellentesque ultrices
+                tellus eu augue elementum, nec suscipit sapien elementum. Nam ornare elit velit, vel ullamcorper erat
+                pulvinar eu. Fusce porta quam nec nisi elementum, quis porta diam faucibus. Maecenas sed ultrices metus,
+                at vestibulum diam. Maecenas ac euismod mauris. Morbi at massa gravida, lobortis lacus id, viverra odio.
+                Morbi in volutpat dolor. Mauris nisi lectus, scelerisque et lacinia quis, ullamcorper at libero.</p>
+        </section>
+        <section>
+            <h2 id="Flex">flexbox</h2>
+            <div class="container-flex">
+                <div class="container_50x">
+                    <h3>O que é o Flexbox</h3>
+                    <p>Por muito tempo, as únicas ferramentas disponíveis para criar leiautes em CSS e posicionar
+                        elementos com boa compatibilidade entre browsers eram float e position. Porém, essas ferramentas
+                        possuem algumas limitações muito frustrantes, especialmente no que diz respeito à
+                        responsividade. Algumas tarefas que consideramos básicas em um leiaute, como centralização
+                        vertical de um elemento-filho com relação a um elemento-pai ou fazer com que elementos-filhos
+                        ocupem a mesma quantidade de espaço, ou colunas terem o mesmo tamanho independente da quantidade
+                        de conteúdo interno, eram impossíveis ou muito difíceis de serem manejadas com floats ou
+                        position, ao menos de forma prática e flexível. A ferramenta Flexbox (de Flexible Box) foi
+                        criada para tornar essas tarefas mais simples e funcionais: os filhos de um elemento com Flexbox
+                        podem se posicionar em qualquer direção e pode ter dimensões flexíveis para se adaptar.</p>
+
+                </div>
+                <div class="container_50x">
+                    <h3>Elementos</h3>
+                    <div class="container-flex">
+                        <img id="imgSite"
+                            src="https://css-tricks.com/wp-content/uploads/2018/11/00-basic-terminology.svg"
+                            alt="flexbox">
+                        <p>O Flexbox é um módulo completo e não uma única propriedade; algumas delas devem ser
+                            declaradas no container (o elemento-pai, que chamamos de flex container), enquanto outras
+                            devem ser declaradas nos elementos-filhos (os flex itens). Se o layout "padrão" é baseado
+                            nas direções block e inline, o leiaute Flex é baseado em direções "flex flow". Veja abaixo
+                            um diagrama da especificação, explicando a ideia central por trás do leiaute Flex.</p>
+                    </div>
+                </div>
+            </div>
+            <p>Os ítens serão dispostos no leiaute seguindo ou o eixo principal ou o transversal.
+
+                </div>
+            <ul>
+                <li>
+                    Eixo principal: o eixo principal de um flex container é o eixo primário e ao longo dele são
+                    inseridos os flex items. Cuidado: O eixo principal não é necessariamente horizontal; vai depender da
+                    propriedade flex-direction (veja abaixo).
+                </li>
+                <li>
+                    main-start | main-end: os flex items são inseridos dentro do container começando pelo lado start,
+                    indo em direção ao lado end.
+                </li>
+                <li>
+                    Tamanho principal: A largura ou altura de um flex item, dependendo da direção do container, é o
+                    tamanho principal do ítem. A propriedade de tamanho principal de um flex item pode ser tanto width
+                    quanto height, dependendo de qual delas estiver na direção principal.
+                </li>
+                <li>
+                    Eixo transversal: O eixo perpendicular ao eixo principal é chamado de eixo transversal. Sua direção
+                    depende da direção do eixo principal.
+                </li>
+                <li>
+                    cross-start | cross-end: Linhas flex são preenchidas com ítens e adicionadas ao container, começando
+                    pelo lado cross start do flex container em direção ao lado cross end.
+                </li>
+                <li>
+                    cross size: A largura ou altura de um flex item, dependendo do que estiver na dimensão transversal,
+                    é o cross size do íten. A propriedade cross size pode ser tanto a largura quanto a altura do ítem, o
+                    que estiver na transversal.</p>
+                </li>
+                <li>
+                    Flex container é o elemento que envolve sua estrutura. Você define que um elemento é um Flex
+                    Container com a propriedade display e valores flex ou inline-flex.
+                </li>
+                <li>Flex Item são elementos-filhos do flex container.</li>
+                <li>Eixos ou Axes são as duas direções básicas que existem em um Flex Container: main axis, ou eixo
+                    principal, e cross axis, ou eixo transversal.</li>
+            </ul>
+        </section>
+    </article>
+</body>
+</html>
