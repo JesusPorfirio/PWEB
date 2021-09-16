@@ -1,0 +1,51 @@
+<nav id="navbar">
+                <nav id="marca-pagina">
+                    <nav id="Dados pessoais">
+                        <img id="imgper" class="bord50" src="Img/imgPerfil2.jpg" alt="imagem minha de perfil">
+                        <a href="https://www.linkedin.com/in/gabriel-jesus-43a5b0198/">
+                            <address>Linkedin</address>
+                        </a>
+                        <STRONG>Discord:</STRONG>
+                        <address>Jporfirio#4061</address>
+                        <STRONG>Endereço:</STRONG>
+                        <address>Sorocaba</address>
+                        <STRONG>Para mais informações entrar em contato, por discord ou linkedin.</STRONG>
+                    </nav>
+                    <nav id="atividades">
+                        <h3>Formação academica</h3>
+                        <ul>
+                            <li>
+                                Grau: Acadêmico
+                                <ul>
+                                    <li>Instituição: Fatec</li>
+                                    <li>Curso: Analise e desenvolvimento de sistemas</li>
+                                    <li>Graduação: tecnologo</li>
+                                    <li>Situação: Cursando com conclusão em 2023/2024</li>
+                                    <li>Instituição: E.E. Antonio Miguel Pereira Junior</li>
+                                    <li>Curso: Ensino Médio</li>
+                                    <li>Situação: Completo em 2015</li>
+                                </ul>
+                            </li>
+                            <li>
+                                Grau: Especialização
+                                <ul>
+                                    <li>Instituição: Sabe tudo, projeto perola</li>
+                                    <li>Curso: Informatica </li>
+                                    <li>Graduação: Basico</li>
+                                    <li>Situação: Completo em 2012</li>
+                                </ul>
+                                <ul>
+                                    <li>Instituição: Grão Mestre Cassio</li>
+                                    <li>Curso: Taekwondo </li>
+                                    <li>Graduação: 7°Dan faixa preta</li>
+                                    <li>Situação: Ponta amarela obtida aprox. em 2014</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </nav>
+                <h1>
+                    Gabriel Jesus Porfirio Marques<br>
+                </h1>
+            </nav>
+            
