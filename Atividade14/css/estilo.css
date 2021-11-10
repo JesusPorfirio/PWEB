@@ -1,0 +1,14 @@
+body{
+    background-color: aqua;
+}
+.dflex{
+    display: flex;
+}
+.ali-fle-star{
+    align-items: flex-start;
+}
+
+.ali-fle-mei{
+    align-items: center;
+    flex-direction: column;
+}
